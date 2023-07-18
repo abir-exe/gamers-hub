@@ -41,7 +41,6 @@ nav {
 
 /* banner section starts */
 .banner-container {
-    border: 1px solid red;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -80,7 +79,7 @@ nav {
     font-size: 20px;
 
     font-weight: 500;
-margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .btn-pink {
@@ -102,4 +101,51 @@ margin-bottom: 15px;
     font-weight: 600;
     border: none;
     margin-left: 20px;
+}
+
+/* .banner-img{
+    border: 1px solid blue;
+    width: 700px;
+    height: 200px;
+} */
+
+/* online image part */
+. {}
+
+.online-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.funny {
+    color: #8758F1;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.img-description {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.online-content {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.online-img-container {
+    display: flex;
+    justify-content: space-around;
 }
