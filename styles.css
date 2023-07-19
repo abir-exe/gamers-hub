@@ -172,7 +172,8 @@ nav {
 .play-instanly-container {
     border: 1px solid red;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 100px;
     align-items: center;
     height: 100vh;
 
@@ -186,6 +187,8 @@ nav {
 
 .play-instatnly-images {
     border: 1px solid blue;
+    margin-bottom: 0px;
+    
 }
 
 .play-instantly-title {
@@ -193,7 +196,19 @@ nav {
     font-weight: 700;
     color: #0B0223;
 }
-
+.pi-image{
+    
+}
+.pi-image1{
+    margin-left: 150px;
+    position: relative;
+    top: 200px
+}
+.pi-image2{
+    position: relative;
+    bottom: 100px;
+    margin-bottom: 0px;
+}
 
 /* catagories section */
 
