@@ -243,7 +243,9 @@ nav {
 .career-btn:hover{
     cursor: pointer;
 }
-
+.nav-items{
+    cursor: pointer;
+}
 .hover-container{
     position: relative;
 }
@@ -580,6 +582,57 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+
+    }
+/* responsive for tablets */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    .nav-container,
+    .nav-items>ul,
+    .banner-container,
+    .we-container,
+    .online-img-container,
+    .play-instanly-container,
+    .career-container,
+    .career-content-box-container  {
+        flex-direction: column;
+    }
+    .we-container{
+        margin-top:600px;
+        
+    }
+    .we-image img{
+        width: 100%;
+    }
+    .we-content{
+        text-align: center;
+    }
+    .online-img-container{
+        align-items: center;
+    }
+    .play-instanly-container{
+        margin-top: 1000px;
+        margin-bottom: 1000px;
+    }
+    .career-image img{
+        width: 500px;
+    }
+.career-container{
+    height: 100%;
+    width: 0 auto;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.catagory-container-4{
+    margin-bottom: 400px;
+}
+.my-foot{
+    margin-top: 300px;
+}
+
+
 
     }
 
