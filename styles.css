@@ -228,11 +228,28 @@ nav {
 
 
 /* hover part */
+.online-img-container:hover{
+    cursor: pointer;
+}
+.icons:hover{
+    cursor: pointer;
+}
+.btn-blue:hover{
+    cursor: pointer;
+}
+.btn-pink:hover{
+    cursor: pointer;
+}
+.career-btn:hover{
+    cursor: pointer;
+}
+
 .hover-container{
     position: relative;
 }
 .hover-container:hover .text{
     visibility: visible;
+    
 }
 .text{
     font-size: 1.2 rem;
@@ -251,6 +268,7 @@ nav {
     visibility: hidden;
     border-radius: 20px;
     border: 3px solid #F948B2;
+    font-size: 29px;
 }
 .online-img img{
     object-fit: cover;
@@ -557,7 +575,11 @@ nav {
     align-items: center;
 
 }
-
+.icons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
 
     }
 
