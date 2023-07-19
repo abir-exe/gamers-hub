@@ -278,8 +278,6 @@ nav {
     gap: 200px;
     align-items: center;
     height: 90vh;
-    border: 1px solid red;
-
 }
 
 .play-instantly-content {
@@ -331,7 +329,6 @@ nav {
     display: flex;
     align-items: center;
     padding: 0px;
-    border: 1px solid red;
 }
 
 .career-content {
@@ -395,7 +392,6 @@ nav {
     height: 300px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 150px 0px 0px;
-    border: 1px solid red;
 }
 
 .catagory {
@@ -442,7 +438,6 @@ nav {
     background-color: #0B0223;
     color: white;
     padding: 0px 0px;
-    border: 1px solid red;
 }
 
 .footer-container {
@@ -492,4 +487,79 @@ nav {
     font-size: 40px;
     margin-right: 40px;
 }
+
+
+
+/* responsive part */
+/* responsive for mobile */
+
+@media screen and (max-width:576px) {
+
+    .nav-container,
+    .nav-items>ul,
+    .banner-container,
+    .we-container,
+    .online-img-container,
+    .play-instanly-container,
+    .career-container,
+    .career-content-box-container  {
+        flex-direction: column;
+    }
+    .we-container{
+        margin-top:600px;
+        
+    }
+    .we-image img{
+        width: 100%;
+    }
+    .we-content{
+        text-align: center;
+    }
+    .online-img-container{
+        align-items: center;
+    }
+    .play-instanly-container{
+        margin-top: 1000px;
+        margin-bottom: 1000px;
+    }
+    .career-image img{
+        width: 500px;
+    }
+.career-container{
+    height: 100%;
+    width: 0 auto;
+    margin-bottom: 100px;
+    align-items: center;
+}
+.catagory-container, .catagory-container-4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.catagory-container-4{
+    margin-bottom: 400px;
+}
+.my-foot{
+    margin-top: 300px;
+}
+.our-story{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+.terms{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+
+}
+
+
+    }
+
+
 
